@@ -1,0 +1,21 @@
+# 初期表示
+zixyanken = input("1,2,3どれかを入力をして\n何を出しますか? 1:グー、2:チョキ、3:パー\n")
+zixyanken = str(zixyanken)
+kimi = ""
+
+# 勝てないじゃんけん
+
+# パー
+if (zixyanken == "1"):
+    kimi = "パー"
+    print("私は{}を出した。君の負けです".format(kimi))
+# グー
+elif (zixyanken == "2"):
+    kimi = "グー"
+    print("私は{}を出した。君の負けです".format(kimi))
+# チョキ
+elif (zixyanken == "3"):
+    kimi = "チョキ"
+    print("私は{}を出した。君の負けです".format(kimi))
+else:
+    print("入力が不正。終わり")
